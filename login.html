@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Centers the form box perfectly on the screen */
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+
+        }
+
+        /* Creates the stylized form box container */
+        .form_container {
+            background-color:white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333333;
+        }
+
+        label {
+            margin-bottom: 6px;
+            color: #555555;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="form_container">
+        <h1>LOGIN</h1>
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" placeholder="ENTER YOUR EMAIL" required>
+        
+        <label for="password">PASSWORD</label>
+        <input type="password" id="id" placeholder="ENTER YOUR PASSWORD" required>
+        
+        <button type="submit">SUBMIT</button>
+    </form>
+
+</body>
+</html>
