@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: pink;
+    background: radial-gradient(rgb(178, 14, 140), rgb(255, 205, 230));
+    font-family: "Courgette", Inter, Poppins, sans-serif;
+}
+.box{
+    width:300px;
+    height:200px;
+    background: rgb(170,69,99);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-style: solid;
+} */
+ 
